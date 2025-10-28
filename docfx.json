@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "docs/images/*.{jpg,jpeg,png,gif,svg,webp}"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "HoK文档",
+      "_appTitle": "HoK文档",
+      "_appFooter": "© 2025 Horizon of Kivotos 项目组. 保留所有权利。",
+      "_enableSearch": true,
+      "_disableAffix": false,
+      "_disableToc": false,
+      "pdf": false
+    },
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+        "Footnotes"
+      ]
+    }
+  }
+}
