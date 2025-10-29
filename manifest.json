@@ -1,0 +1,135 @@
+{
+  "source_base_path": "/home/runner/work/Hok-docfx/Hok-docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/HoK群公告-群规.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/HoK群公告-群规.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/HoK项目FAQ.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/HoK项目FAQ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/HoK项目调研-公示版.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/HoK项目调研-公示版.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/HEAD.png",
+      "output": {
+        "resource": {
+          "relative_path": "docs/images/HEAD.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/todolist（临时）.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/todolist（临时）.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/关于群公告的FAQ.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/关于群公告的FAQ.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/文档站建设草案.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/文档站建设草案.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/零基础参与HoK文案工作.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/零基础参与HoK文案工作.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

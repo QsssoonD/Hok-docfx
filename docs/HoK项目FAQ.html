@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>&#128172; HoK 项目常见问题解答-总版 (FAQ) v1.3 | HoK文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="&#128172; HoK 项目常见问题解答-总版 (FAQ) v1.3 | HoK文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/QsssoonD/Hok-docfx/blob/main/docs/HoK项目FAQ.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="HoK文档">
+            HoK文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="-hok-项目常见问题解答-总版-faq-v13">💬 HoK 项目常见问题解答-总版 (FAQ) v1.3</h1>
+
+<blockquote>
+<p>本文档由 JAycen 受邀编写。所有回答均已按来源标注：</p>
+<ul>
+<li><strong>(Dafan)</strong>：由编者基于调研内容中来自项目主理人 Dafan 的直接、明确答复等，编写的回答，已经本人确认；</li>
+<li><strong>(JAycen)</strong>：由编者基于完整调研内容、逻辑推演或个人建议性补充编写的内容，仅供参考。</li>
+<li>其中亦有已得到特别明确或同时提出的二人共识，已进行特别标注</li>
+</ul>
+</blockquote>
+<p><strong>2025/10/2凌晨特别注明：在Dafan爷爷有关科技树重整的生动实践中，我们深切了解到了切换现成项目协作平台的困难，故文章绝大部分有关“替换博思白板”的内容已不再有效/被搁置</strong></p>
+<h2 id="一项目愿景与目标10问">一、项目愿景与目标（10问）</h2>
+<ol>
+<li><p><strong>Q：我们项目的核心目标是什么？</strong><br>
+<strong>A (Dafan)</strong>：作为前传续作，我们将讲完前传的故事，同时提供一个前所未有的游戏系统，尽可能将精彩的真实太空大战略内容呈现在玩家面前。</p>
+</li>
+<li><p><strong>Q：我们希望游戏最终达到什么程度？</strong><br>
+<strong>A (Dafan)</strong>：不追求公式化推演，而是通过直观、沉浸的玩法呈现硬核太空战略体验，兼顾可玩性与教育性——不讲究完全按照死板的公式推导而是致力于使最不了解航天的玩家也能轻易学会。</p>
+</li>
+<li><p><strong>Q：项目有没有明确的“完成”标准？</strong><br>
+<strong>A (Dafan)</strong>：目前以“完成局部作战系统 + 发布可玩快照”为近期里程碑，长期目标尚未固化，需随开发动态调整。</p>
+</li>
+<li><p><strong>Q：我们是否接受模组（Mod）支持？</strong><br>
+<strong>A (Dafan)</strong>：是，模组支持已被纳入规划，但当前代码结构尚不兼容，需在局部作战完成后重构。</p>
+</li>
+<li><p><strong>Q：项目是否限定题材范围？哪些内容属于禁区？</strong><br>
+<strong>A (Dafan)</strong>：必须符合硬科幻设定，严禁玄幻、修仙等非科学元素。题材需与真实航天逻辑一致。</p>
+</li>
+<li><p><strong>Q：我们是否追求商业发布？</strong><br>
+<strong>A (Dafan)</strong>：否，游戏将会免费发布，我要敢收费包吃官司的。</p>
+</li>
+<li><p><strong>Q：什么时候能玩？有没有什么阶段性、已有时限的目标？</strong><br>
+<strong>A (Dafan)</strong>：现在正在制作局部作战的底层逻辑，会先实现一个测试航天器，实现完成之后发布一个快照给大家玩玩，时限很难说，并非全职开发。</p>
+</li>
+<li><p><strong>Q：我们如何看待“玩家体验”与“系统复杂度”的平衡？</strong><br>
+<strong>A (JAycen)</strong>：优先保证直观易学，复杂机制需通过引导、UI 或渐进式解锁降低门槛。</p>
+</li>
+<li><p><strong>Q：项目是否计划支持多人联机？</strong><br>
+<strong>A (Dafan)</strong>：预计不能，且若决定要做，开发难度会直接翻倍，最终效果也无法保证。</p>
+</li>
+<li><p><strong>Q：我们是否希望项目成为“社区共创”作品？</strong><br>
+<strong>A (Dafan+JAycen)</strong>：是，项目本质是社区驱动，目标是构建可持续贡献的生态，而非仅由主程序主导。</p>
+</li>
+</ol>
+<h2 id="二开发技术与工程现状15问">二、开发技术与工程现状（15问）</h2>
+<ol start="11">
+<li><p><strong>Q：项目使用什么技术栈？</strong><br>
+<strong>A (Dafan)</strong>：Unreal Engine 5.4，纯蓝图开发，大量依赖 GPU 计算，未计划支持移动端。</p>
+</li>
+<li><p><strong>Q：为何选择纯蓝图而非 C++？</strong><br>
+<strong>A (Dafan)</strong>：主程序熟悉蓝图，且当前性能表现良好；但长期看可能限制扩展性。</p>
+</li>
+<li><p><strong>Q：项目是否有版本控制系统（如 Git）？</strong><br>
+<strong>A (JAycen)</strong>：初步建立了基于 git 的本地版本控制，距离规范化使用和协作可能还有段距离。</p>
+</li>
+<li><p><strong>Q：是否计划开源到 GitHub/Gitee？</strong><br>
+<strong>A (Dafan)</strong>：愿意开源，但主程序不熟悉操作，需外部指导。</p>
+</li>
+<li><p><strong>Q：项目文件是如何管理的？</strong><br>
+<strong>A (Dafan)</strong>：目前无规范，资源直接放入 UE 项目目录，随参与者增多亟需新方案。</p>
+</li>
+<li><p><strong>Q：是否存在“只有主程序能碰”的代码模块？</strong><br>
+<strong>A (Dafan)</strong>：是，早期代码混乱，部分模块只能废弃无法修改。</p>
+</li>
+<li><p><strong>Q：技术债现状如何？影响大吗？</strong><br>
+<strong>A (Dafan)</strong>：已存在，短期影响有限，主要影响模组支持与多剧本扩展，计划在局部作战部分完成后重构。<br>
+<em>（编者注：Dafan 原话为“修改”，非“重构”）</em></p>
+</li>
+<li><p><strong>Q：重构是否有明确计划或时间表？</strong><br>
+<strong>A (Dafan)</strong>：暂无具体时间表，但已列为局部作战部分完成后的事项。</p>
+</li>
+<li><p><strong>Q：项目是否考虑引入 C++ 或插件优化性能？</strong><br>
+<strong>A (Dafan)</strong>：未计划，但若蓝图成为瓶颈，可能评估迁移。</p>
+</li>
+<li><p><strong>Q：资源（美术、音效、文案）如何与工程整合？</strong><br>
+<strong>A (Dafan)</strong>：目前直接导入 UE，缺乏统一命名、分类整理。</p>
+</li>
+<li><p><strong>Q：是否有自动化构建或测试流程？</strong><br>
+<strong>A (Dafan)</strong>：目前通过直接在编辑器里运行以测试bug。</p>
+</li>
+<li><p><strong>Q：项目是否支持热更新或动态加载内容？</strong><br>
+<strong>A (Dafan)</strong>：实现困难，热更新mod几乎无法做到，热更新图片需要C++，mod支持也可能需要C++</p>
+</li>
+<li><p><strong>Q：是否会考虑跨平台发布（如 Linux、Mac）？</strong><br>
+<strong>A (Dafan)</strong>：不太可能。</p>
+</li>
+<li><p><strong>Q：项目是否做过性能分析或优化？</strong><br>
+<strong>A (Dafan)</strong>：依赖 GPU 计算性能尚可，但未系统性 profiling。</p>
+</li>
+<li><p><strong>Q：如果主程序退出，项目能否继续？</strong><br>
+<strong>A (Dafan)</strong>：目前不能——代码几乎无备份、几乎无文档、完全无协作机制，存在单点故障风险。部分代码只能直接废弃而不能修改（早期新手时期的代码相当混乱）。</p>
+</li>
+</ol>
+<h2 id="三协作与团队管理20问">三、协作与团队管理（20问）</h2>
+<ol start="26">
+<li><p><strong>Q：团队目前通过什么工具沟通？</strong><br>
+<strong>A (Dafan)</strong>：仅使用 QQ 群。</p>
+</li>
+<li><p><strong>Q：是否有任务分配或进度追踪机制？</strong><br>
+<strong>A (Dafan)</strong>：目前用博思白板展示，但协作体验不佳，考虑更换。</p>
+</li>
+<li><p><strong>Q：是否计划引入任务看板（如飞书）？</strong><br>
+<strong>A (Dafan)</strong>：有意愿，且优先级较高（调研中 Dafan 钦定排序第2）。</p>
+</li>
+<li><p><strong>Q：为什么建议更换博思白板？</strong><br>
+<strong>A (JAycen)</strong>：信息密度高但可读性差、多端体验不佳、协作功能弱、Markdown 支持反人类。</p>
+</li>
+<li><p><strong>Q：推荐使用什么协作平台？</strong><br>
+<strong>A (JAycen)</strong>：飞书（团队交流 + 多维表格 + 文档 + <a href="https://www.bilibili.com/video/BV1se411n7tD/">与 GitHub 有联动潜力</a>），兼顾结构化与灵活性。</p>
+</li>
+<li><p><strong>Q：项目是否有明确的分工？</strong><br>
+<strong>A (Dafan)</strong>：QQ群中以头衔分类，正式成员已被记录在开发人员名单中，预备人员尚未提交正式被合并的贡献，合并后将转正。</p>
+</li>
+<li><p><strong>Q：是否出现过重复劳动或沟通冲突？</strong><br>
+<strong>A (Dafan)</strong>：尚未发生，但多人协作刚起步，风险正在累积。</p>
+</li>
+<li><p><strong>Q：决策机制是怎样的？</strong><br>
+<strong>A (Dafan)</strong>：程序可行性由主程序决定，其他事项开放讨论、少数服从多数。</p>
+</li>
+<li><p><strong>Q：是否有核心成员名单？如何认定“正式成员”？</strong><br>
+<strong>A (Dafan)</strong>：QQ 群内有头衔分类，提交有效贡献并被合并后转正。</p>
+</li>
+<li><p><strong>Q：是否有人员上限？</strong><br>
+<strong>A (Dafan)</strong>：无上限，但需配套管理机制以防混乱。</p>
+</li>
+<li><p><strong>Q：是否计划建立子群（如核心群、美术群）？</strong><br>
+<strong>A (JAycen)</strong>：建议在 ≥100 人时设立核心小群即形成 2 群结构，≤1000 人维持 2 群结构。</p>
+</li>
+<li><p><strong>Q：QQ 群公告是否完善？</strong><br>
+<strong>A (JAycen)</strong>：已制定，但尚为测试版，后续文档页发布后会继续更新完善。</p>
+</li>
+<li><p><strong>Q：如何避免“单打独斗”？</strong><br>
+<strong>A (Dafan)</strong>：强调协作文化，鼓励提问与互助，因为我们已经无人问津地干了一整年了，从没想过会有这么多人合作。</p>
+</li>
+<li><p><strong>Q：是否有会议机制（如周会）？</strong><br>
+<strong>A (JAycen)</strong>：无，但可考虑轻量同步（如开发日志更新）。</p>
+</li>
+<li><p><strong>Q：如何激励贡献者持续参与？</strong><br>
+<strong>A (JAycen)</strong>：通过公开感谢、记录首次贡献、发布里程碑、提供归属感。</p>
+</li>
+<li><p><strong>Q：是否接受“临时贡献者”（如只做音效）？</strong><br>
+<strong>A (Dafan)</strong>：接受，贡献不分大小，只要符合项目方向。</p>
+</li>
+<li><p><strong>Q：如何处理“无效”或“偏离方向”的贡献？</strong><br>
+<strong>A (Dafan)</strong>：由主程序或相关模块负责人评估，友好沟通退回或调整。</p>
+</li>
+<li><p><strong>Q：是否制定过协作规范（如命名、提交格式）？</strong><br>
+<strong>A (Dafan)</strong>：部分有提交指定过规范，但未系统化，需整理协作手册。</p>
+</li>
+<li><p><strong>Q：程序能否多人协作？</strong><br>
+<strong>A (Dafan)</strong>：目前不能，因版本控制尚无远程存储库且代码耦合度高。</p>
+</li>
+<li><p><strong>Q：非程序成员如何了解开发进度？</strong><br>
+<strong>A (Dafan)</strong>：目前主要靠群内口述，亟需透明化看板或文档中心。</p>
+</li>
+</ol>
+<h2 id="四文档知识与资产沉淀10问">四、文档、知识与资产沉淀（10问）</h2>
+<ol start="46">
+<li><p><strong>Q：项目是否有文档？</strong><br>
+<strong>A (Dafan)</strong>：暂无，有成员正筹备，主程序不熟悉文档建设。</p>
+</li>
+<li><p><strong>Q：是否计划建立文档中心？</strong><br>
+<strong>A (Dafan)</strong>：是，且为最高优先级（调研中 Dafan 钦定排序第1），可由专人从零搭建。</p>
+</li>
+<li><p><strong>Q：文档应包含哪些内容？</strong><br>
+<strong>A (JAycen)</strong>：项目目标、技术架构、资源规范、社区规范、贡献指南、FAQ、设计 ADR 等。</p>
+</li>
+<li><p><strong>Q：是否考虑用静态网站作为项目门户？</strong><br>
+<strong>A (JAycen)</strong>：支持，可兼顾文档展示与对外宣传，且照顾无法访问 GitHub 的成员。</p>
+</li>
+<li><p><strong>Q：资源（音效、美术、文案）如何归档？</strong><br>
+<strong>A (Dafan)</strong>：需建立统一目录结构，建议按类型/模块/版本分类，配合命名规范。</p>
+</li>
+<li><p><strong>Q：是否支持资源版本回溯？</strong><br>
+<strong>A (JAycen)</strong>：目前不支持，需配合 Git LFS，我们预期使用自建的远程存储库。</p>
+</li>
+<li><p><strong>Q：设计决策是否记录？</strong><br>
+<strong>A (JAycen)</strong>：否，易导致“为什么这样设计”成谜，建议引入 ADR。</p>
+</li>
+<li><p><strong>Q：是否有《项目入门指南》？</strong><br>
+<strong>A (Dafan)</strong>：无，但列为高优先级（调研中 Dafan 钦定排序第3），帮助新人快速上手。</p>
+</li>
+<li><p><strong>Q：如何确保文档持续更新？</strong><br>
+<strong>A (JAycen)</strong>：指定维护人 + 与贡献流程绑定（如 PR 需同步更新文档）。</p>
+</li>
+<li><p><strong>Q：是否考虑用 Notion、飞书文档或 Wiki？</strong><br>
+<strong>A (JAycen)</strong>：倾向飞书（与任务看板联动），但静态网站更开放、持久，目前暂定两边同时推进。</p>
+</li>
+</ol>
+<h2 id="五社区文化与可持续性10问">五、社区、文化与可持续性（10问）</h2>
+<ol start="56">
+<li><p><strong>Q：项目如何看待“社区”角色？</strong><br>
+<strong>A (JAycen)</strong>：社区是核心资产，目标是构建自运转、自延续的贡献生态。</p>
+</li>
+<li><p><strong>Q：如何保护成员热情？</strong><br>
+<strong>A (JAycen)</strong>：通过正反馈（感谢、展示成果）、降低参与门槛、明确贡献价值。</p>
+</li>
+<li><p><strong>Q：项目是否追求“活下去”而非“做完”？</strong><br>
+<strong>A (JAycen)</strong>：是，优先确保项目可传承、可接手，而非盲目堆功能。</p>
+</li>
+<li><p><strong>Q：如何让新人比我们更容易上手？</strong><br>
+<strong>A (JAycen)</strong>：完善文档、简化流程、提供模板、设立导师机制。</p>
+</li>
+<li><p><strong>Q：如何让离开的人带着成就感走？</strong><br>
+<strong>A (JAycen)</strong>：记录贡献、公开致谢、保留署名，让每份付出被看见。</p>
+</li>
+<li><p><strong>Q：是否担心项目“烂尾”？</strong><br>
+<strong>A (JAycen)</strong>：主程序已坚持一年，但需机制保障——不能依赖个人毅力。</p>
+</li>
+<li><p><strong>Q：项目是否接受“慢开发”？</strong><br>
+<strong>A (JAycen)</strong>：接受，宁可慢而稳，不可快而崩。我个人强烈反对盲目加功能。</p>
+</li>
+<li><p><strong>Q：是否鼓励“做减法”？</strong><br>
+<strong>A (JAycen)</strong>：是，建议暂缓新功能，优先理清现有结构与债务。</p>
+</li>
+<li><p><strong>Q：如何避免“画大饼”导致失望？</strong><br>
+<strong>A (JAycen)</strong>：聚焦可交付里程碑（如“可玩快照”），少谈远景，多做实事。</p>
+</li>
+<li><p><strong>Q：项目最珍贵的资产是什么？</strong><br>
+<strong>A (JAycen)</strong>：不是代码或美术，而是愿意投入时间的人。</p>
+</li>
+</ol>
+<h2 id="六未来演进与行动项10问">六、未来演进与行动项（10问）</h2>
+<ol start="66">
+<li><p><strong>Q：下一步最该推进哪五件事？（按优先级）</strong><br>
+<strong>A (JAycen+Dafan)</strong>：以下是完整的调研中 Dafan 钦定版排序：</p>
+<ol>
+<li>建立文档中心</li>
+<li>建立任务看板（如飞书）</li>
+<li>制定《项目入门指南》</li>
+<li>建立 GitHub/Gitee 仓库 + Git 版本控制</li>
+<li>明确分工与负责人</li>
+</ol>
+</li>
+<li><p><strong>Q：如何启动 GitHub 迁移？</strong><br>
+<strong>A (JAycen)</strong>：目前 GitHub 管理项目代码的方案已被否决，不久的将来我们会建立起自建的远程存储库。</p>
+</li>
+<li><p><strong>Q：是否考虑用 GitHub Issues 管理任务？</strong><br>
+<strong>A (JAycen)</strong>：可作为备选，但现成的图表协作工具对非技术成员更友好。</p>
+</li>
+<li><p><strong>Q：是否计划发布开发快照？</strong><br>
+<strong>A (Dafan)</strong>：是，局部作战底层完成后 Dafan 将发布首个可玩版本。</p>
+</li>
+<li><p><strong>Q：如何处理“功能提议泛滥”？</strong><br>
+<strong>A (JAycen)</strong>：设立“想法池”，记录但不承诺实现；优先级由社区投票 + 技术可行性评估。</p>
+</li>
+<li><p><strong>Q：是否需要设立“模块负责人”？</strong><br>
+<strong>A (JAycen)</strong>：私以为不需要，过度的管理必将带来项目人员结构冗杂，哪怕将来我们拥有大量的成员。</p>
+</li>
+<li><p><strong>Q：如何确保项目“去中心化”？</strong><br>
+<strong>A (JAycen)</strong>：文档化一切、代码开源、权限分散、培养后备力量。</p>
+</li>
+<li><p><strong>Q：是否考虑申请开源组织（如 Open Source Collective）？</strong><br>
+<strong>A (JAycen)</strong>：谁提的问题？我们只是个中技术力的二创游戏。</p>
+</li>
+<li><p><strong>Q：项目是否需要宣传片或对外展示？</strong><br>
+<strong>A (JAycen)</strong>：已有在 B 站的对外展示，评估后认为现阶段非必需，但快照发布时仍可制作简短演示视频。</p>
+</li>
+<li><p><strong>Q：最终，我们希望这个项目成为什么样？</strong><br>
+<strong>A (JAycen)</strong>：一个即使没有“我”，也能继续活下去的社区项目——可持续、可传承、有意义，<strong>让下一个加入的人，比我们更容易上手；让下一个离开的人，带着成就感和归属感走</strong>。</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>附注</strong>：此 FAQ 可作为《项目宪章》雏形，建议后续转化为正式文档，并随项目演进动态更新。</p>
+</blockquote>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/QsssoonD/Hok-docfx/blob/main/docs/HoK项目FAQ.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          © 2025 Horizon of Kivotos 项目组. 保留所有权利。
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
