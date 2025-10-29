@@ -15,22 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
-    
+
     - name: Install DocFX
       run: dotnet tool install -g docfx --version 2.78.3
-    
+
     - name: 构建文档
       run: |
         docfx build docfx.json
-    
-    - name: 部署到GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
+
+    - name: 部署到单独分支
+      uses: s0/git-publish-subdir-action@develop  # 使用 develop 分支以获取最新版本
       if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+      env:
+        REPO: self  # 当前仓库
+        BRANCH: pages  # 输出到的单独分支（可自定义，如 my-docs-branch）
+        FOLDER: _site  # 输出目录（注意：不带 ./）
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 用于认证
+        SQUASH_HISTORY: true  # 如果想压缩历史，只保留最新 commit
